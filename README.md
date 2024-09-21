@@ -1,7 +1,7 @@
 # Basic HTML Forms
 ---
 
-### Challenge Description
+## Challenge Description
 
 Now that you've mastered the basics of HTML forms, it's time to enhance your form by allowing users to enter a message. Consider whether a regular input field is the best option for this purpose, or if there are better alternatives. Additionally, think about other types of form fields that could be useful but were not covered in class. Your task is to implement these improvements and explore the potential of HTML forms.
 
