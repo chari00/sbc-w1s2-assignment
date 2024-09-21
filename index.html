@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Webpage</title>
+    <title>Chari Cruz</title>
   </head>
   <body>
     <h1>My webpage</h1>
@@ -15,7 +15,7 @@
     </p>
     <img src="../w1s2-assignment/avatar.jpg" alt="my avatar" />
     <p>Feel free to <a href="mailto:macharitocruzuk@gmail.com">Email</a> me.</p>
-  
+    <fieldset>
       <h2>Contact Me</h2>
       <form action="" method="post">
         <fieldset>
@@ -44,7 +44,6 @@
           />
           <br />
           <br />
-
           <label for="message">Message:</label>
           <br />
           <textarea
@@ -54,11 +53,40 @@
             maxlength="200"
             required
           ></textarea>
-        
+        </fieldset>
+        <fieldset>
+          <legend>How do you want me to contact you?</legend>
+          <label for="contact-option">
+            Please choose to the options below:</label
+          >
+          <br />
+          <select id="contact-option" name="contact-option">
+            <option value="email">Email</option>
+            <option value="phone-call">Phone call</option>
+            <option value="text">Text</option>
+          </select>
+          <br />
+        </fieldset>
+        <fieldset>
+          <legend>Do you want to subscribe to my news letter?</legend>
+          <input type="radio" id="yes" name="yes" value="yes" />
+          <label for="yes">Yes, I want to subscribe</label>
+          <br /><br />
+          <input type="radio" id="no" name="no" value="no" />
+          <label for="no">No. Thanks! </label>
+        </fieldset>
         <br />
-        <br />
+        <input type="checkbox" id="terms" />
+        <label for="terms"
+          >I agree to the terms and conditions for my news letter
+          subscription.</label
+        >
+        <br /><br>
+        <label for="date">Date of subscription</label>
+        <input type="date" id="date" />
+        <br /><br />
         <button type="submit">Submit</button>
       </form>
-
+    </fieldset>
   </body>
 </html>
